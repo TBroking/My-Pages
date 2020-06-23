@@ -11,3 +11,41 @@ T1.tag_configure("center", justify='center')
 T1.insert("1.0", "Welcome to truth tusday! We will begin at 10:00")
 T1.tag_add("center", "1.0", "end")
 T1.pack()
+
+#counter
+
+
+for x in range(1, 51):
+    print("Count on %d" % (x))
+
+for x in range(51, 101):
+    print("To low the count is on %d" % (x))
+
+
+for x in range(101, 151):
+    print("Not high enough %d" % (x))
+
+
+for x in range(151, 201):
+    print("Argh higer! %d" % (x))
+
+
+for x in range(201, 301):
+    print("Higher But DONT blow the Machine kid! %d" % (x))
+
+
+for x in range(301, 601):
+    print("Argh Higer! %d" % (x))
+
+
+
+for x in range(601, 1001):
+    print("Still to low %d" % (x))
+
+
+
+for x in range(1001, 2000):
+    print("Nearly there %d" % (x))
+
+for x in range(2000, 2001):
+    print("Stop Experement Perfect! %d" % (x))
